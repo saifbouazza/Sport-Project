@@ -1,0 +1,7 @@
+<td scope="row">{{users.id}}</td>
+<td>{{users.userName}}</td>
+<td>{{users.age}}</td>
+<td>{{users.team}}</td>
+<td> <button type="button" class="btn btn-warning" (click)="displayUsers(users.id)"> Dsiplay  </button></td>
+<td> <button type="button" class="btn btn-danger" (click)="deleteUsers(users.id)"> Delete </button></td>
+<td> <button type="button" class="btn btn-danger" (click)="editUser(users.id)"> edit </button></td>

@@ -1,0 +1,38 @@
+<div class="site-section">
+    <div class="container">
+        <div class="form-row">
+            <div class="col-lg-7">
+                <form #matchForm='ngForm' (ngSubmit)='validt()'>
+                    <label>Matches</label>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]='match.teamone' class="form-control" placeholder="">
+                    </div>
+                    <label>TeamOne </label>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]='match.teamtwo' class="form-control" placeholder="">
+                    </div>
+                    <label>TeamTwo</label>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]='match.score' class="form-control" placeholder="">
+                    </div>
+                    <label>Score</label>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]='match.stade' class="form-control" placeholder="">
+                    </div>
+                    <label>Game</label>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]='match.game' class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary py-3 px-5" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
