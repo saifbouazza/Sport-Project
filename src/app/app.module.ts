@@ -33,6 +33,7 @@ import { DisplayUsersComponent } from './components/display-users/display-users.
 import { UserComponent } from './components/user/user.component';
 import { EditComponent } from './components/edit/edit.component';
 import { ReversePipe } from './pipes/reverse.pipe';
+import { TrColorDirective } from './directives/tr-color.directive';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { ReversePipe } from './pipes/reverse.pipe';
     UserComponent,
     EditComponent,
     ReversePipe,
+    TrColorDirective,
   ],
   imports: [
     FormsModule,
